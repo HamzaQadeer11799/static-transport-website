@@ -362,3 +362,11 @@ body {
     padding: 15px;
     margin-top: 2rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .service-grid {
+        flex-direction: column;
+        gap: 20px; /* optional: add spacing between cards */
+    }
+}
